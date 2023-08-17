@@ -1,21 +1,18 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main() {
-	int T,X,i;
-	
-	cin>>T;
-	
-	while(T--){
-        cin>>X;
-	    if(X<=10){
-	        cout<<"YES";
-	    }
-	    else{
-	        cout<<"NO";
-	    }
-	}
-	
-	
+int main(){
+    int N;
+
+    cin>>N;
+
+
+    if(N>=6){
+        cout<<"YES"<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
+    
 
 }
