@@ -2,17 +2,26 @@
 using namespace std;
 
 int main(){
-    int N;
+    int T,X,Z;
 
-    cin>>N;
+    cin>>T;
 
-
-    if(N>=6){
-        cout<<"YES"<<endl;
-    }
-    else{
-        cout<<"NO"<<endl;
-    }
+while (T--)
+{
+    cin>>X;
+    Z=4*X;
     
+    if(Z>1000){
+    cout<<"NO"<<endl;
+}
+else
+{
+    cout<<"YES"<<endl;
+}
+
+}
+
+
+
 
 }
