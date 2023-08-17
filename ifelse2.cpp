@@ -1,27 +1,18 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int main(){
-    int T,X,Z;
+    int N;
 
-    cin>>T;
+    cin>>N;
 
-while (T--)
-{
-    cin>>X;
-    Z=4*X;
+
+    if(N>=6){
+        cout<<"YES"<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
     
-    if(Z>1000){
-    cout<<"NO"<<endl;
-}
-else
-{
-    cout<<"YES"<<endl;
-}
-
-}
-
-
-
 
 }
