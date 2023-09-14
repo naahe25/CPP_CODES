@@ -1,15 +1,27 @@
-#include<iostream>
+#include<bits/stdc++.h>
+#include<algorithm>
 using namespace std;
-int main(){
-   int X,N,M,A;
 
-cin>>X>>N>>M;
-A=X+M;
+int main() {
 
-if(N<=A){
-   cout<<"Yes"<<endl;
+int n,i,a[n],b;
+
+cout<<"How many Number You Want To Take:";
+cin>>n;
+
+cout<<"Enter Numbers :"<<endl;
+for(i=1;i<=n;i++){
+    cin>>a[i];
 }
-else{
-   cout<<"NO"<<endl;
+
+for(i=1;i<=n;i++){
+cout<<"The Numbers Are:"<<a[i]<<endl;
 }
+
+std::sort(a,a+n);
+cout<<"Sorted Numbers:";
+for(i=1;i<=n;i++){
+    cout<<" "<<a[i];
+}
+
 }
