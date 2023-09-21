@@ -1,15 +1,21 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    
-double X,Y,C;
+int main()
+{
 
+    int N,i,temp,sum=0;
+    cin>>N;
+while(N--){
+    cin >> temp ;
+   sum += temp;  
+}
 
-cin>>X>>Y;
-
-C=Y-(X+.50);
-cout<< C;
-
-	return 0;
+if(sum%2==0){
+         
+        cout<<"READY FOR BATTLE"<<endl;
+    }
+    else{
+        cout<< "NOT READY"<<endl;
+    }
 }
