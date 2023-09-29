@@ -3,9 +3,15 @@
 
 /* NOTICE
 1. std::array is a container that encapsulate fixed sized arrays.
+
 2.array size is needed at compile time.
+
 3.Assign by value is actually by value.
+
 4.Access Elements:
+
+at(),[],front(),back(), get[], data(), .fill()
+  
    a. at() 
    
     // Printing array elements using at()
