@@ -21,7 +21,7 @@
    d) back()
 
    e) get[] // Use #include<tuple> for get() 
-   
+
    Example :  
    
    // Printing array elements using get()
@@ -31,8 +31,9 @@
     cout << get<4>(myarray) << " " << get<5>(myarray) << " "; // 5 6
     cout << endl;
 
-   f.data() // gives acess to underlying array.It Gives/Return Pointer Of That array,We get adress of that array. 
-Use .fill function if we want assign some value in all 5 places.Example : array.fill(5); -> arrray={5,5,5,5,5}
+   f) data() // gives acess to underlying array.It Gives/Return Pointer Of That array,We get adress of that array. 
+   
+   g) .fill() // Use .fill function if we want assign some value in all 5 places.Example : array.fill(5); -> arrray={5,5,5,5,5}
 
 */
 
