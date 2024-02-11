@@ -2,13 +2,15 @@
 using namespace std;
 int main()
 {
-    int T, Num, digit, reverse = 0;;
+    int T, Num, digit, reverse = 0;
     
     cin >> T;
+    
+    
+
     while (T--)
     {
         cin >> Num;
-
         int temp = Num;
 
         while (temp != 0)

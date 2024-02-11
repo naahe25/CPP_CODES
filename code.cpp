@@ -2,22 +2,18 @@
 using namespace std;
 int main()
 {
-    int T, N;
-    cin >> T;
-    while (T--)
+  int n, k, i, a[1000], count = 0;
+  cin >> n >> k;
+  for (i = 0; i < n; i++){
+  
+    cin >> a[i];
+  }
+    for (i = 0; i < n; i++)
     {
-        cin >> N;
-        
-        int temp = N;
-        int reverse = 0;
-
-        while(temp != 0){
-        int digit = temp % 10;
-        reverse = (reverse * 10) + digit;
-        temp = temp / 10;
-        
-        }
-          cout<<reverse<<endl;
+      if (a[i] >= a[k - 1] && a[i] > 0)
+      {
+        count++;
+      }
     }
-    
+    cout << count << endl;
 }
